@@ -14,7 +14,7 @@ const RecommendsCard = ({item}) => {
                 <h2 className="card-title">{name}</h2>
                 <p>{recipe}</p>
                 <div className="card-actions">
-                    <button className="btn bg-[#1F2937] text-[#BB8506]">Buy Now</button>
+                    <button className="btn bg-[#1F2937] text-[#BB8506]">Add to Cart</button>
                 </div>
             </div>
         </div>

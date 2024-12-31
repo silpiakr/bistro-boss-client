@@ -9,8 +9,8 @@ const ChefService = () => {
                 backgroundImage: `url(${chefImg})`,
             }}>
             <div className="hero-overlay  bg-opacity-60"></div>
-            <div className="hero-content text-black-content bg-slate-50 text-center py-10 px-12 md:py-20 md:px-40">
-                <div className="max-w-md">
+            <div className="hero-content text-black-content bg-slate-50 text-center px-6 md:py-28 md:px-8 ">
+                <div className="max-w-screen-sm md:max-w-screen-lg px-6 md:px-12">
                     <h1 className="mb-5 text-4xl font-bold">Bistro Boss</h1>
                     <p className="text-center">
                         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
