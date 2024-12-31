@@ -8,7 +8,7 @@ const MenuItem = ({item}) => {
             <div>
                 <div className='flex justify-between items-center'>
                 <h3 className='uppercase font-medium'>{name}------------</h3>
-                <p className='text-yellow-500'>${price}</p>
+                <p className='text-[#BB8506]'>${price}</p>
                 </div>
                 <p>{recipe}</p>
                 
