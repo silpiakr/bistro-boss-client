@@ -5,7 +5,6 @@ const Menu = () => {
         <div>
             <Helmet>
                 <title>Bistro-Menu</title>
-                <link rel="canonical" href="https://www.tacobell.com/" />
             </Helmet>
             <h2>menu </h2>
         </div>

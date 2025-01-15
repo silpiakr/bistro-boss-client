@@ -14,7 +14,6 @@ const Home = () => {
         <div>
             <Helmet>
                 <title>Bistro-Home</title>
-                <link rel="canonical" href="https://www.tacobell.com/" />
             </Helmet>
             <Banner></Banner>
             <Category></Category>
