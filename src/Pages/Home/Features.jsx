@@ -6,12 +6,14 @@ import image from '../../assets/home/featured.jpg'
 const Features = () => {
     return (
         <div
-            className="hero min-h-screen mb-12"
+            className="hero bg-fixed text-white min-h-screen mb-12"
             style={{
                 backgroundImage: `url(${featuredImage})`,
             }}>
 
-            <div className="hero-overlay bg-opacity-60"><SectionTitle heading="From Our Menu" subHeading="Check it out"></SectionTitle></div>
+            <div className="hero-overlay bg-opacity-60">
+                <SectionTitle heading="Featured Item" subHeading="Check it out"></SectionTitle>
+            </div>
             <div className="hero-content text-neutral-content flex-col md:flex-row">
                 <div className='md:w-[468px]'>
                     <img src={image} alt="" />
@@ -24,7 +26,7 @@ const Features = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate facere, deserunt dolores maiores quod nobis quas quasi. Eaque repellat recusandae ad laudantium tempore consequatur consequuntur omnis ullam maxime tenetur.
                         Read More
                     </p>
-                    <button className="btn btn-outline btn-warning">Order Now</button>
+                    <button className="btn btn-outline border-0 border-b-4 btn-warning m-4">Order Now</button>
                 </div>
             </div>
         </div>
